@@ -6,5 +6,6 @@ async function getUser(id) {
         return { nombre: usuario.nombre, email: usuario.email };
     } catch (error) {
         return { error: error.message };
+        
     }
 }
